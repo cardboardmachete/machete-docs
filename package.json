@@ -1,0 +1,20 @@
+{
+  "name": "machete-docs",
+  "version": "1.0.0",
+  "description": "Learn how to use the Machete library.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "serve": "npm run dev"
+  },
+  "dependencies": {
+    "global": "^4.3.2",
+    "vuepress": "^1.7.1"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-pwa": "^1.7.1",
+    "prettier": "2.1.2",
+    "vuepress-plugin-seo": "^0.1.4"
+  }
+}
